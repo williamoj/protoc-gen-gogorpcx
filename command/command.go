@@ -55,7 +55,7 @@ import (
 	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 	_ "github.com/gogo/protobuf/protoc-gen-gogo/grpc"
 	plugin "github.com/gogo/protobuf/protoc-gen-gogo/plugin"
-	_ "github.com/rpcxio/protoc-gen-gogorpcx/rpcx"
+	_ "github.com/williamoj/protoc-gen-gogorpcx/rpcx"
 )
 
 func Read() *plugin.CodeGeneratorRequest {
