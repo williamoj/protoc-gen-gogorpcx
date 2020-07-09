@@ -109,7 +109,7 @@ func (p *rpcx) generateService(file *generator.FileDescriptor, service *pb.Servi
 		func Make%[1]sClient(xclient client.XClient) *%[1]sClient {
 			return &%[1]sClient{
 				xclient: xclient,
-				fx: UserMethods {%[3]s
+				fx: %[1]sMethods {%[3]s
 				},
 			}
 		}
